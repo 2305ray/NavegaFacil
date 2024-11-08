@@ -1,7 +1,7 @@
 
 .intro-content {
     position: relative; 
-    top: -8rem;
+    /*top: -8rem;*/
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
@@ -88,4 +88,48 @@
 .gallery-img img:hover{
     transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
     
+ }
+
+ .contact-form {
+    grid-column: span 2;
+ }
+ .contact-form .form-grid {
+    display: flex;
+    border: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap);
+
+ }
+
+ .form-group {
+    flex: 1 1 320px;
+    
+ }
+
+ .form-group label {
+    display: block;
+ }
+
+ .form-group input, .form-group textarea {
+    border: none;
+    background: var(--light-gray-color);
+    padding: 1.5rem 2rem;
+    width: 100%;
+ }
+
+ .form-group button{
+    border: 0.5rem solid var(--light-gray-color);
+    background: var(--light-gray-color);
+    color: var(--primary-color);
+    padding: 1.5rem 2rem; 
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 90ms ease-in-out;
+ }
+ .form-group button:hover{
+    border: 0.5rem solid var(--primary-color);
+    background: var(--primary-color);
+    color: var(--white-color);
+    padding: 1.5rem 2rem; 
  }
