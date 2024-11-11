@@ -102,6 +102,12 @@
 
  }
 
+ .form-grid legend {
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+ }
+
  .form-group {
     flex: 1 1 320px;
     
@@ -109,6 +115,11 @@
 
  .form-group label {
     display: block;
+    margin-bottom: 1rem;
+ }
+
+ .form-group input:focus, .form-group textarea:focus {
+    box-shadow: 0 0 3px 2px  var(--secundary-color);
  }
 
  .form-group input, .form-group textarea {
@@ -116,6 +127,7 @@
     background: var(--light-gray-color);
     padding: 1.5rem 2rem;
     width: 100%;
+    outline: none;
  }
 
  .form-group button{
@@ -133,3 +145,115 @@
     color: var(--white-color);
     padding: 1.5rem 2rem; 
  }
+
+#footer {
+    text-align: center ;
+    align-items: center;
+
+
+ }
+
+ #footer a{
+    color: var(--white-color);
+
+ }
+
+ #footer p {
+    margin: 0;
+    padding: 3rem;
+ }
+ .heart {
+    color: var(--secundary-color);
+ }
+
+ .close-menu {
+    display: none;
+ }
+
+ .back-to-top {
+    font-size: 2.5rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--white-color);
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--primary-color);
+    transform: rotate(-90deg);
+    border: 0.1rem solid var(--primary-color);
+ }
+ 
+
+ @media (max-width: 800px) {
+    .intro-content, .grid {
+        grid-template-columns: 1fr;
+    }
+
+    #gallery, #grid-description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gallery-img {
+        width: 100%;
+        max-width: 100%;
+        max-height: auto;
+
+    }
+
+    .menu {
+        bottom: 0;
+        text-align: center;
+    }
+    
+    .menu-content, .menu-content ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu-content {
+        height: 100vh;
+    }
+
+    .menu {
+        display: none;
+    }
+
+  
+
+    .close-menu-label::after {
+        content: '☰';
+        position: fixed;
+        z-index: 2;
+        top: 2rem;
+        right: 2rem;
+        background: var(--primary-color);
+        color: var(--white-color);
+        font-size: 3rem;
+        line-height: 3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
+    .close-menu:checked~.menu {
+        display: block;
+    }
+
+    .close-menu:checked~.close-menu-label::after{
+        display: block;
+        content: "×";
+    }
+
+    .menu-spacing {
+        display: none;
+    }
+ }
+
+

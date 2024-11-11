@@ -17,15 +17,18 @@
 </head>
 
 <body class="main-bg">
+  <input id="close-menu" class="close-menu" type="checkbox" arial-label="Close menu" role="button">
+   <label class="close-menu-label" for="close-menu" title="close-menu"></label>
     <aside class="menu white-bg">
+      
        <div class="main-content
         menu-content">
-            <h1>
+            <h1 onclick="getElementById('close-menu').checked = false;">
                  <a href="#home">LOGO</a>
             </h1>
 
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">Intro</a></li>
                     <li><a href="#grid-one">Grid-One</a></li>
                     <li><a href="#gallery">Gallery</a></li>
@@ -86,10 +89,10 @@
         </div>
     </section>
 
-    <section id="gallery" class="white-bg section">
+    <section id="gallery" class="white-bg section ">
                 <div class="main-content grid-one-content">
-                    <h2 class="grid-main-heading">gallery</h2>
-                    <p class="grid-description">Uma breve descrição</p>  
+                    <h2 id="gallery" class="grid-main-heading">gallery</h2>
+                    <p id="grid-description" class="grid-description">Uma breve descrição</p>  
                 
                     <div class="grid"> 
                         <div class="gallery-img">
@@ -217,7 +220,11 @@
                 </div>
               </section>
 
+    <footer id="footer" class="main-bg">
+      <p><a href="#"> Feito com <span class="heart">❤</span></a></p>
+    </footer>
 
-    <script src="script.js"></script>
+<a class="back-to-top" href="#">➤</a>
+   
 </body>
 </html>
