@@ -47,7 +47,7 @@ Projeto simples de uma página de apresentação, incluindo informações gerais
 </p>
 <div align="center">
   
-[![Video Preview](https://github.com/2305ray/simple-landing-page/blob/main/Landingpage-FireFox-ezgif.com-video-to-gif-converter.gif)
+![Video Preview](https://github.com/2305ray/simple-landing-page/blob/main/Landingpage-FireFox-ezgif.com-video-to-gif-converter.gif)
 </div>
 
 
