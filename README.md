@@ -42,11 +42,12 @@ Projeto simples de uma página de apresentação, incluindo informações gerais
 
 ## 🔖 Layout
 
-
+<p align="center">
+  Aqui está um vídeo demonstrando como o projeto funciona:
+</p>
 <div align="center">
-Aqui está um vídeo demonstrando como o projeto funciona:
   
-[![Video Preview](https://github.com/2305ray/simple-landing-page/blob/main/ezgif.com-animated-gif-maker.gif)
+![Video Preview](https://github.com/2305ray/simple-landing-page/blob/main/Landingpage-FireFox-ezgif.com-video-to-gif-converter.gif)
 </div>
 
 
