@@ -45,6 +45,7 @@ Projeto simples de uma página de apresentação, incluindo informações gerais
 
 <div align="center">
 Aqui está um vídeo demonstrando como o projeto funciona:
+  
 [![Video Preview](https://github.com/2305ray/simple-landing-page/blob/main/ezgif.com-animated-gif-maker.gif)
 </div>
 
