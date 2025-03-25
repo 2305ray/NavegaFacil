@@ -43,7 +43,10 @@ Projeto simples de uma página de apresentação, incluindo informações gerais
 ## 🔖 Layout
 
 Aqui está um vídeo demonstrando como o projeto funciona:
+<div align="center">
 
+  
+</div>
 [![Video Preview](https://via.placeholder.com/600x300.png)](https://github.com/2305ray/simple-landing-page/blob/main/Landing%20page%20-%20FireFox.mp4)
 
 
