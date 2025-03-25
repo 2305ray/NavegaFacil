@@ -1,7 +1,7 @@
-<h1 align="center"> Gaby Art </h1>
+<h1 align="center"> NavegaFáci </h1>
 
 <p align="center">
-Projeto de um anúncio de curso de artes <br/>
+Projeto simples páginas de visualização da firefox <br/>
 
 </p>
 
@@ -21,7 +21,7 @@ Projeto de um anúncio de curso de artes <br/>
 <br>
 
 <div align="center">
-  <img alt="curso gaby" src="./gabi/gabi.png" width="50%">
+  <img alt="firefox" src="https://github.com/2305ray/simple-landing-page/blob/main/firefox-page.png" width="100%">
 </div>
 
 ---
@@ -36,9 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto foi feito com base no vídeo da Raffaela Ballerini.
-
-- [Landing Page](https://www.youtube.com/watch?v=llF6vD-RljE)
+Projeto simples de uma página de apresentação, incluindo informações gerais e um formulário de contato para envio de mensagens.
 
 ---
 
@@ -46,7 +44,8 @@ O projeto foi feito com base no vídeo da Raffaela Ballerini.
 
 Aqui está um vídeo demonstrando como o projeto funciona:
 
-[Assista o vídeo aqui](https://github.com/2305ray/simple-landing-page/blob/main/Landing%20page%20-%20FireFox.mp4)
+[![Video Preview](https://via.placeholder.com/600x300.png)](https://github.com/2305ray/simple-landing-page/blob/main/Landing%20page%20-%20FireFox.mp4)
+
 
 ---
 
@@ -54,11 +53,11 @@ Aqui está um vídeo demonstrando como o projeto funciona:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/2305ray/LandingPage-ArtGaby.git
+   git clone https://github.com/2305ray/NavegaFacil.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
-   cd LandingPage-ArtGaby
+   cd NavegaFacil
    ```
 3. Abra o arquivo index.html no navegador:
    ```bash
@@ -67,5 +66,3 @@ Aqui está um vídeo demonstrando como o projeto funciona:
 ---
 
 <p align="center"> Feito com ♥ </p>
-
-<img alt="curso gaby" src="./gabi/home-landingPage-gaby2.png" width="100%">
