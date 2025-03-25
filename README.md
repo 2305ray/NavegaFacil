@@ -1,4 +1,4 @@
-<h1 align="center"> NavegaFáci </h1>
+<h1 align="center"> NavegaFácil </h1>
 
 <p align="center">
 Projeto simples páginas de visualização da firefox <br/>
