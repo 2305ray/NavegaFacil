@@ -1,4 +1,4 @@
-<h1 align="center"> NavegaFáci </h1>
+<h1 align="center"> NavegaFácil </h1>
 
 <p align="center">
 Projeto simples páginas de visualização da firefox <br/>
@@ -42,9 +42,13 @@ Projeto simples de uma página de apresentação, incluindo informações gerais
 
 ## 🔖 Layout
 
-Aqui está um vídeo demonstrando como o projeto funciona:
 
-[![Video Preview](https://via.placeholder.com/600x300.png)](https://github.com/2305ray/simple-landing-page/blob/main/Landing%20page%20-%20FireFox.mp4)
+<div align="center">
+Aqui está um vídeo demonstrando como o projeto funciona:
+  
+[![Video Preview](https://github.com/2305ray/simple-landing-page/blob/main/ezgif.com-animated-gif-maker.gif)
+</div>
+
 
 
 ---
